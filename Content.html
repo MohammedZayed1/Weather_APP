@@ -2,22 +2,33 @@
 <html>
 
   <head>
+    <meta charset="UTF-8">
     <title>Weather App</title>
     <link rel="stylesheet" href="Styles.css">
+    <script src="./Actions.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Open+Sans&display=swap" rel="stylesheet">
   </head>
-
 
   <body>
     <header id="header">
         <h1>Simple Weather App</h1>
-    </header>
+    </header> 
 
-    <form id="form" action="---">
-      <input id="city" name="city" placeholder="Search for a city">
-      <input id="submit" type="submit" value="SUBMIT">
-    </form>
+    <div id="form">
+      <input id="search" type="text" placeholder="Search for a city">
+      <input id="submit" type="submit" value="Search">
+    </div>
 
-    
+    <div class="data">
+      <h2 class="city">Weather in Denver</h2>
+      <h2 class="temp">51°C</h2>
+      <img src=""  alt=""  class="icon"/>
+      <div class="description">Cloudy</div>
+      <div class="humidity">Humidity: 60%</div>
+      <div class="wind">Wind speed: 6.2 km/h</div>
+    </div>    
 
   </body>
 
