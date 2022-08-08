@@ -1,15 +1,15 @@
 html{
-    background-color: darkblue;
+    background-color: #192068;
 }
 
-h1{
+#header{
     margin-top: 50px;
     color: white;
     display: flex;
     justify-content: center;
 }
 
-form{
+#form{
     display: flex;
     justify-content: center;
 }
@@ -20,4 +20,26 @@ form{
     font-weight: bold;
     width: 100px;
     height: 40px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: #ddd;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 30px;
+
 }
